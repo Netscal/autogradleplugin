@@ -22,7 +22,7 @@ import static java.lang.annotation.RetentionPolicy.CLASS;
 @Target(TYPE)
 public @interface AutoGradlePlugin {
     /**
-     * Returns the plugin id implemented by this plugin.
+     * @return the plugin id implemented by this plugin.
      */
     String value();
 }
